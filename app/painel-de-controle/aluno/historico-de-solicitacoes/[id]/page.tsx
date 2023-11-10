@@ -67,7 +67,7 @@ const DashboardPage = () => {
 
       <FilterWrapper />
 
-      <ResponsiveTable data={tableData} />
+      <ResponsiveTable data={tableData} type="Student" />
     </div>
   );
 };
