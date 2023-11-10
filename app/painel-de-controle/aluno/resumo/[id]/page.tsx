@@ -17,7 +17,7 @@ const DashboardPage = () => {
       </div>
 
       <div className="w-full flex flex-col gap-8">
-        <ResumeRequestBox />
+        <ResumeRequestBox type="Student" />
 
         <ResumeCurrentLessonBox />
       </div>
